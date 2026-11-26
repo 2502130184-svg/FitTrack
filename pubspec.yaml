@@ -1,0 +1,31 @@
+name: app_deportiva
+description: "Aplicación de entrenamiento físico con sensores y GPS"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  local_auth: ^2.3.0
+  pedometer: ^4.0.2
+  sensors_plus: ^6.1.1
+  geolocator: ^13.0.2
+  google_maps_flutter: ^2.10.0
+  shared_preferences: ^2.3.5
+  permission_handler: ^12.0.1
+  flutter_map: ^8.3.2
+  latlong2: ^0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
